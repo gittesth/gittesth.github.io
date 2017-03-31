@@ -1,5 +1,5 @@
 <html>
-  <form action="#">
+  <form>
     <label for="username">你的名字</label>
     <input type="text" id="username" placeholder="请输入你的名字" />
     <br />
@@ -9,9 +9,12 @@
   </form>
   <script>
      window.onload = function(){
-       var name = docuement.getElementById("username");
-       var info = name + "是傻逼";
-       alert(info);
+       var btn = document.getElementById("btn1");
+       btn.onclick = function(){
+         var name = docuement.getElementById("username");
+         var info = name + "是傻逼";
+         alert(info);
+       };
      };
   </script>
 </html>
