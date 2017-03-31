@@ -1,10 +1,17 @@
 <html>
-  <form action="index2.html">
+  <form action="#">
     <label for="username">你的名字</label>
     <input type="text" id="username" placeholder="请输入你的名字" />
     <br />
-    <button type="submit">查询</button>
+    <button type="submit" id="btn1">查询</button>
     <span>&nbsp;</span>
     <button type="reset">重置</button>
   </form>
+  <script>
+     window.onload = function(){
+       var name = docuement.getElementById("username");
+       var info = name + "是傻逼";
+       alert(info);
+     };
+  </script>
 </html>
