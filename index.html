@@ -11,7 +11,7 @@
      window.onload = function(){
        var btn = document.getElementById("btn1");
        btn.onclick = function(){
-         var name = document.getElementById("username");
+         var name = document.getElementById("username").value;
          var info = name + "是傻逼";
          alert(info);
          return false;
