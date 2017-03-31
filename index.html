@@ -12,7 +12,10 @@
        var btn = document.getElementById("btn1");
        btn.onclick = function(){
          var name = document.getElementById("username").value;
-         var info = name + "是傻逼";
+         if(name == "殷纪民")
+           var info = name + "你大爷";
+         else
+          var info = name + "是傻逼";
          alert(info);
          return false;
        };
