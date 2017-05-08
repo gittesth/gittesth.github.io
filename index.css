@@ -1,0 +1,9 @@
+
+    .no{
+      background-color:red;
+      border: 1px solid black;
+    }
+    .yes{
+      background-color:green;
+      border: 1px solid grey;
+    }
